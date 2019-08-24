@@ -150,3 +150,9 @@ std::wstring xbox_live_service_t::get_gamertag()
 		errors = ex.what();
 	}
 }
+
+/*
+ * References:
+ * https://docs.microsoft.com/en-us/gaming/xbox-live/using-xbox-live/auth/authentication-for-UWP-projects
+ * https://social.technet.microsoft.com/wiki/contents/articles/51027.xbox-live-authentication-for-uwp-projects-using-c.aspx
+ */
